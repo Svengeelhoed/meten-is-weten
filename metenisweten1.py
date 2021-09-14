@@ -1,9 +1,9 @@
-A = input("Noem een getal: ")
-B = input("Noem nog een getal: ")
-Max = A
-Min = B
-if B <= A :
+A = input("Noem getal A: ")
+B = input("Noem getal B: ")
+Max = int(A)
+Min = int(B)
+if B < A :
  print("A is het grootste getal: " + str(Max))
-elif A <= B:
+elif B > A:
  print("B is groter dan A: " + str(Min))
- 
+else: print("A en B zijn even!")
