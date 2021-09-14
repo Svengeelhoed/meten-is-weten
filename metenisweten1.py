@@ -7,3 +7,6 @@ if B < A :
 elif B > A:
  print("B is groter dan A: " + str(Min))
 else: print("A en B zijn even!")
+
+print("Het maximum is: " + str(Max))
+print("Het minimum is: " + str(Min))
